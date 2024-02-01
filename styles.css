@@ -40,6 +40,21 @@ img {
   border-radius: 10px;
   margin: 0 10px; /* Add space between images */
 }
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 90%; /* Adjust maximum width for smaller screens */
+  }
+
+  .symmetrical-images img {
+    width: 90px; /* Adjust width for smaller screens */
+    height: 90px; /* Adjust height for smaller screens */
+  }
+
+  .symmetrical-images img.middle {
+    width: 120px; /* Adjust width for the center image on smaller screens */
+    height: 120px; /* Adjust height for the center image on smaller screens */
+  }
+}
 
 h1, p {
   color: #ff4b4b; /* Set text color to dark gray */
