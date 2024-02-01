@@ -1,0 +1,64 @@
+body {
+  font-family: 'Notera', sans-serif;
+  margin: 0;
+  padding: 50px; /* Add padding to the body to limit the background size */
+  background-image: url(xddd.jpg); /* Set the background color of the webpage to blue */
+  background-size: cover; /* Cover the entire background */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  background-position: center; /* Center the background image */
+  background-color: #595959; /* Fallback background color */
+}
+
+.container {
+  max-width: 800px; /* Set a maximum width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+  text-align: center;
+  background-color: rgba(229, 229, 229, 0.7); /* Add a semi-transparent white background for the container */
+  padding: 20px; /* Add padding to the container */
+  border-radius: 20px; /* Add rounded corners to the container */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Add a shadow effect to the container */
+}
+
+img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #007bff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.symmetrical-images {
+  display: flex;
+  justify-content: center; /* Align items at the start and end of the flex container */
+  align-items: center; /* Center the images vertically */
+}
+
+
+.symmetrical-images img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 0 10px; /* Add space between images */
+}
+
+h1, p {
+  color: #ff4b4b; /* Set text color to dark gray */
+  background-color: white; /* Set background color of text to white */
+  padding: 10px; /* Add padding to the text for better readability */
+  border-radius: 10px; /* Add rounded corners to the text background */
+}
+
+h1 {
+  font-size: 24px;
+  font-family: 'Notera', cursive;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Notera', cursive;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+
